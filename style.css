@@ -1,0 +1,32 @@
+.tabs{
+    display: flex;
+    border:1px solid black;
+    border-radius: 5px;
+    background-color: aliceblue;
+    padding:20px;
+}
+.image{
+   width:400px;
+   height:300px;
+   object-fit: contain;
+   margin-right: 20px;
+}
+.content.active{
+    display:block;
+}
+.content{
+    display: none;
+}
+.tab-btn{
+    padding:10px 12px;
+    background-color: white;
+}
+p{
+    font-size:20px;
+}
+.about{
+    padding-top:20px;
+}
+h4{
+    font-size: 25px;
+}
